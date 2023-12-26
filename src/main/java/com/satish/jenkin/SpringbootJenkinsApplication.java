@@ -17,5 +17,10 @@ public class SpringbootJenkinsApplication {
 	public String welcome() {
 		return "Hello , Welcome Satish to jenkins pipeline project";
 	}
-
+	
+	@GetMapping("/modified")
+	public String welcomeModified() {
+		return "Hey guys , welcome";
+	}
+	
 }
